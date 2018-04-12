@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saksham.travelbud.EmergencyContactInfo">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="CONTACT1"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/ed91"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:hint="contact1"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="180dp"
+        android:text="CONTACT2"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/ed92"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:hint="contact2"
+        android:inputType="number" />
+    <TextView
+        android:layout_marginTop="340dp"
+        android:layout_width="match_parent"
+        android:text="CONTACT3"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/ed93"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:hint="contact3"
+        android:inputType="number" />
+
+    <Button
+        android:layout_marginTop="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="UpdateContacts"
+        android:text="SAVE"/>
+
+
+</RelativeLayout>
